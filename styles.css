@@ -1,0 +1,185 @@
+:root {
+    --color-gray: #747474;
+    --color-lightgray: #a8a8a8;
+    --color-green: #1DE592;
+    --color-white: #ffffff;
+    --color-blue: #0b57d0;
+    --color-black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 20px;
+}
+
+
+/****** utils *******/
+.bg-green {
+    background-color: var(--color-green);
+}
+
+.bg-white {
+    background-color: var(--color-white);
+}
+
+.fw-650 {
+    font-weight: 650;
+}
+
+.card {
+    width: 500px;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+.vertical-center {
+    padding: 110px 3%;
+}
+
+.border-grey {
+    border: 1px solid var(--color-lightgray);
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+.border-radius-12 {
+    border-radius: 12px;
+}
+
+.border-radius-b-12 {
+    border-radius: 0 0 12px 12px;
+}
+
+.border-radius-t-12 {
+    border-radius: 12px 12px 0 0;
+}
+
+.border-bottom-12 {
+    border-bottom: 1px solid var(--color-gray);
+}
+
+.clear-btn {
+    border: none;
+    background-color: var(--color-white);
+}
+
+.margin-btm-9{
+    margin-bottom: 9px;
+}
+.color-grey{
+    color: gray;
+}
+
+/****** card1 ******/
+.title {
+    font-size: 2.5rem;
+}
+
+.description {
+    font-size: 14px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.action-btn {
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+}
+
+
+/***** card2 *******/
+.heading {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.info {
+    color: var(--color-gray);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.profile-btn {
+    color: var(--color-blue);
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+}
+
+
+.rounded-img {
+    border-radius: 50%;
+    width: 20%;
+    margin: 40px;
+}
+
+.head-img {
+    width: 100%;
+
+}
+
+/****** card-3 ***********/
+.subscription-text {
+    color: var(--color-gray);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.hero-text {
+    margin: 12px 0;
+}
+
+.view-details {
+    margin-top: 10px;
+    border: 1px solid var(--color-lightgray);
+    border-radius: 10px;
+    padding: 10px 20px !important;
+    width: auto !important;
+
+}
+
+
+/******** login form *****/
+input {
+    border: 1px solid var(--color-lightgray);
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+}
+
+input::placeholder {
+    font-size: 1.2rem;
+}
+
+.margin-btm-20 {
+    margin-bottom: 20px;
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.black-btn {
+    color: var(--color-white);
+    background-color: var(--color-black);
+    padding: 20px 45px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+a{
+    display: inline-block;
+}
